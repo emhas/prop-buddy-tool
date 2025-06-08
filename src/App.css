@@ -1,0 +1,59 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;            /* ✅ Add this */
+  display: flex;          /* ✅ Add this */
+  flex-direction: column; /* ✅ Add this */
+  min-height: 100vh;      /* Optional: full screen height */
+  align-items: center; /* <--- add this */
+  text-align: center;
+  justify-content: center; /* centers children vertically */
+  background-color: lightblue;
+}
+/* Ensure react-select dropdown arrow is clickable */
+.react-select__control {
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Menu must be visible over Tailwind containers */
+.react-select__menu {
+  z-index: 50;
+  position: absolute;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
