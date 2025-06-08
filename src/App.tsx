@@ -126,14 +126,14 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10">
       {/* Heading at top, full width */}
       <div className="py-6">
         <h2 className="text-2xl font-bold text-center">Property Insight Tool</h2>
       </div>
   
       {/* Main row layout */}
-      <div className="flex w-full gap-6 items-start justify-start">
+      <div className="w-full max-w-[1100px] mx-auto bg-white p-8 rounded-lg shadow-lg flex gap-6 items-start">
         
         {/* Address Search */}
         <div className="bg-white p-4 rounded-lg shadow-md max-w-lg flex items-center gap-4 flex-shrink-0">
