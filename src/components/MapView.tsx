@@ -36,7 +36,7 @@ function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
   const layerRef = useRef<L.GeoJSON | null>(null);
   useForceRedraw();
   useEffect(() => {
-    if (layerRef.current) {
+    if (layerRef.current  && zones.length > 0) {
       map.removeLayer(layerRef.current);
     }
 

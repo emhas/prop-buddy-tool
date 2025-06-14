@@ -12,7 +12,10 @@ export function useSchoolZones() {
           setZones(data.features as Feature<Polygon>[]);
         }
       })
-      .catch(console.error);
+      .catch((err) => {
+        console.error("Failed to load school zones:", err);
+        alert("⚠️ Error loading school zones. Please try again later.");
+      });
   }, []);
 
   return zones;

@@ -48,6 +48,8 @@ export async function findNearestStation(lat: number, lon: number) {
       closestStation.lon ?? closestStation.center?.lon
     );
 
+    const walkingDistanceMeters = Math.round(minDistance * 1000); // ✅ Convert km → meters
+
     for (const station of stations) {
       const stationLat = station.lat ?? station.center?.lat;
       const stationLon = station.lon ?? station.center?.lon;
@@ -69,13 +71,14 @@ export async function findNearestStation(lat: number, lon: number) {
     }
 
     // Simple estimation: assume 2 minutes per km to CBD
-    const toCBDMinutes = Math.round(minDistance * 2);
+    const toCBDMinutes = Math.round(minDistance * 15);
 
     return {
       name: closestStation.tags?.name || "Unnamed Station",
       lat: stationLat,
       lon: stationLon,
       toCBDMinutes,
+      walkingDistance: walkingDistanceMeters, // ✅ Added walking distance
     };
   } catch (error) {
     console.error("Error fetching nearest station:", error);

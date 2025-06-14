@@ -6,7 +6,6 @@ import { Feature, Polygon } from 'geojson';
 import { point, booleanPointInPolygon } from '@turf/turf';
 import Autosuggest from 'react-autosuggest';
 import { findNearestStation } from './utils/findNearestStation'; // New import
-import { getWalkingDistance } from "./utils/getWalkingDistance"; // ✅ Import the ORS function
 
 // Debounce utility
 const debounce = (func: Function, delay: number) => {
@@ -52,12 +51,11 @@ const debouncedFetchSuggestions = debounce(
 
 function App() {
   const [address, setAddress] = useState('');
-  const [position, setPosition] = useState<[number, number]>([-37.915, 145.017]);
   const [selectedZones, setSelectedZones] = useState<Feature<Polygon>[]>([]);
   const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
   const [suggestions, setSuggestions] = useState<any[]>([]);
   const [nearestStation, setNearestStation] = useState<{ name: string; lat: number; lon: number; toCBDMinutes: number; walkingDistance?: number } | null>(null);
-
+  const [position, setPosition] = useState<[number, number]>([-37.915, 145.017]);
   const zones = useSchoolZones();
 
   const handleSearch = async (addr: string) => {
@@ -83,10 +81,8 @@ function App() {
     setNearestStation(nearest);
     // 🚶 Fetch Walking Distance (with corrected parameters)
     if (nearest) {
-    const walkingDistance = await getWalkingDistance([result[0], result[1]], [nearest.lat, nearest.lon]);
-    console.log("Walking Distance:", walkingDistance); // Debugging output
-    setNearestStation({ ...nearest, walkingDistance });
-}
+    setNearestStation(nearest);
+    }
   };
 
   const onChange = (event: React.FormEvent<any>, { newValue }: any) => {
@@ -177,9 +173,9 @@ function App() {
                 🚆 Nearest Train Station:  
                 <span className="text-green-700 font-semibold"> {nearestStation.name}</span>
               </p>
-              <p className="text-gray-600">⏳ {nearestStation.toCBDMinutes} min to CBD (fix it)</p>
+              <p className="text-gray-600">⏳ {nearestStation.toCBDMinutes} min to CBD (estimate only)</p>
               {nearestStation.walkingDistance && (
-                <p className="text-gray-600">🚶 {nearestStation.walkingDistance} meters walk home</p>
+                <p className="text-gray-600">🚶 {nearestStation.walkingDistance} meters walk home (estimate only)</p>
               )}
             </div>
           ) : (
