@@ -85,7 +85,7 @@ function App() {
     }
   };
 
-  const onChange = (event: React.FormEvent<any>, { newValue }: any) => {
+  const onChange = ({ newValue }: any) => {
     setAddress(newValue);
     debouncedFetchSuggestions(newValue, setSuggestions);
   };
@@ -98,7 +98,7 @@ function App() {
     setSuggestions([]);
   };
 
-  const onSuggestionSelected = (event: any, { suggestion }: any) => {
+  const onSuggestionSelected = ({ suggestion }: any) => {
     const lat = parseFloat(suggestion.lat);
     const lon = parseFloat(suggestion.lon);
     setAddress(suggestion.title);
