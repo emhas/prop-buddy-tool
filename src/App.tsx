@@ -27,33 +27,6 @@ function App() {
     }
   }, []);
 
-  // 📋 Handle clipboard content fallback
-useEffect(() => {
-  async function checkClipboard() {
-    try {
-      const text = await navigator.clipboard.readText();
-
-      const isListing = text.includes("realestate.com.au") || text.includes("domain.com.au");
-      const isAddressLike = text.length > 10 && /\d+.+\w+/.test(text);
-
-      if ((isListing || isAddressLike) && !address) {
-        const confirmSearch = window.confirm("📋 Detected a property link or address in your clipboard. Search it?");
-        if (confirmSearch) {
-          setAddress(text);
-          handleSearch(text);
-        }
-      }
-    } catch (err) {
-      console.warn("Clipboard read blocked:", err);
-    }
-  }
-
-  // Run on first user interaction to bypass autoplay restrictions
-  document.addEventListener("click", checkClipboard, { once: true });
-
-  return () => document.removeEventListener("click", checkClipboard);
-}, [address]);
-
   useEffect(() => {
     if (address.trim().length < 3) return;
 
