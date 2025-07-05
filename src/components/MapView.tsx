@@ -7,36 +7,38 @@ import homeIcon from '../assets/icons/home.png';
 
 const stationMarker = L.icon({
   iconUrl: trainIcon,
-  iconSize: [30, 30], // Adjust size if needed
-  iconAnchor: [15, 40], // Centers the icon properly
-  popupAnchor: [0, -30], // Positions the popup correctly
+  iconSize: [30, 30],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -30],
 });
 
 const homeMarker = L.icon({
   iconUrl: homeIcon,
-  iconSize: [30, 30], // Adjust size if needed
-  iconAnchor: [15, 40], // Centers the icon properly
-  popupAnchor: [0, -30], // Positions the popup correctly
+  iconSize: [30, 30],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -30],
 });
 
 interface MapViewProps {
   position: [number, number];
   schoolZones: Feature[];
-  station: { name: string; lat: number; lon: number } | null;
+  station: { name: string; lat: number; lon: number; toCBDMinutes?: number } | null;
 }
 
 function useForceRedraw() {
   const map = useMap();
   useEffect(() => {
-    map.invalidateSize(); // Ensures Leaflet detects style changes
+    map.invalidateSize();
   }, []);
 }
+
 function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
   const map = useMap();
   const layerRef = useRef<L.GeoJSON | null>(null);
   useForceRedraw();
+
   useEffect(() => {
-    if (layerRef.current  && zones.length > 0) {
+    if (layerRef.current && zones.length > 0) {
       map.removeLayer(layerRef.current);
     }
 
@@ -56,7 +58,6 @@ function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
 
     layer.addTo(map);
     layerRef.current = layer;
-
     map.fitBounds(layer.getBounds(), { padding: [20, 20] });
   }, [zones, map]);
 
@@ -66,9 +67,14 @@ function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
 export default function MapView({ position, schoolZones, station }: MapViewProps) {
   return (
     <div style={{ position: 'relative', width: '100%', height: '550px', backgroundColor: 'red' }}>
-      <MapContainer center={position} zoom={14} scrollWheelZoom={true} style={{ height: '550px', width: '100%' }}>
+      <MapContainer
+        center={position}
+        zoom={14}
+        scrollWheelZoom={true}
+        style={{ height: '550px', width: '100%' }}
+      >
         <TileLayer
-          attribution='&copy; OpenStreetMap contributors'
+          attribution="&copy; OpenStreetMap contributors"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position} icon={homeMarker}>
@@ -77,25 +83,15 @@ export default function MapView({ position, schoolZones, station }: MapViewProps
 
         {station && (
           <Marker position={[station.lat, station.lon]} icon={stationMarker}>
-            <Popup>{station.name} - {station.toCBDMinutes} min to CBD</Popup>
+            <Popup>
+              {station.name}
+              {station.toCBDMinutes ? ` - ${station.toCBDMinutes} min to CBD` : ''}
+            </Popup>
           </Marker>
         )}
 
         <SchoolZoneLayer zones={schoolZones} />
       </MapContainer>
-
-      {/* ❗Outside the MapContainer */}
-      {!station && (
-        <div style={{
-          position: 'absolute', top: '10px', left: '10px',
-          backgroundColor: station ? '#D1FAE5' : '#FEE2E2', /* Green if found, red if not */ 
-          color: station ? '#065F46' : '#B91C1C', /* Dark green if found, dark red if not */
-          padding: '10px', borderRadius: '6px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
-          fontWeight: 'bold', zIndex: 1000
-        }}>
-          🚆 Nearest Train Station: {station ? station.name : "Not found"}
-        </div>
-      )}
     </div>
   );
 }

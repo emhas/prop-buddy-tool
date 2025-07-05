@@ -5,7 +5,8 @@ export function useSchoolZones() {
   const [zones, setZones] = useState<Feature<Polygon>[]>([]);
 
   useEffect(() => {
-    fetch('/data/Secondary_Integrated_Year9_2026.geojson')
+//    fetch('/data/Secondary_Integrated_Year9_2026.geojson')
+    fetch(import.meta.env.BASE_URL + 'data/Secondary_Integrated_Year9_2026.geojson')
       .then((res) => res.json())
       .then((data: FeatureCollection) => {
         if (data?.features) {
