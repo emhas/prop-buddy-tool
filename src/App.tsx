@@ -15,6 +15,18 @@ function App() {
   const [nearestStation, setNearestStation] = useState<{ name: string; lat: number; lon: number; toCBDMinutes?: number; walkingDistance?: number } | null>(null);
   const zones = useSchoolZones();
 
+   // 📨 Handle incoming share target
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const shared = params.get("shared");
+    const sharedText = params.get("text") || params.get("url");
+
+    if (shared && sharedText) {
+      setAddress(sharedText);
+      handleSearch(sharedText);
+    }
+  }, []);
+  
   useEffect(() => {
     if (address.trim().length < 3) return;
 
