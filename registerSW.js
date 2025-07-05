@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/prop-buddy-tool/sw.js', { scope: '/prop-buddy-tool/' })})}
