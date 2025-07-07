@@ -5,17 +5,17 @@ import { useSchoolZones } from './hooks/useSchoolZones';
 import { Feature, Polygon } from 'geojson';
 import { point, booleanPointInPolygon } from '@turf/turf';
 import { findNearestStation } from './utils/findNearestStation';
-import { getAncestryInfo } from './utils/getAncestryInfo'; // ✨ NEW
+import { getAncestryInfo } from './utils/getAncestryInfo';
 
 function App() {
   const [address, setAddress] = useState('');
   const [suggestions, setSuggestions] = useState<any[]>([]);
   const [position, setPosition] = useState<[number, number]>([-37.915, 145.017]);
   const [selectedZones, setSelectedZones] = useState<Feature<Polygon>[]>([]);
-  const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
+  const [selectedSchool, setSelectedSchool] = useState<{ primary: string | null; secondary: string | null } | null>(null);
   const [nearestStation, setNearestStation] = useState<{ name: string; lat: number; lon: number; toCBDMinutes?: number; walkingDistance?: number } | null>(null);
-  const [ancestryInfo, setAncestryInfo] = useState<any | null>(null); // ✨ NEW
-  const zones = useSchoolZones();
+  const [ancestryInfo, setAncestryInfo] = useState<any | null>(null);
+  const { primary, secondary } = useSchoolZones();
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -33,64 +33,60 @@ function App() {
 
     const delay = setTimeout(async () => {
       const viewbox = '144.5,-38.5,145.5,-37.5';
-      const endpoint = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(
-        address
-      )}&format=json&addressdetails=1&limit=5&bounded=1&viewbox=${viewbox}&autocomplete=1`;
+      const endpoint = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&addressdetails=1&limit=5&bounded=1&viewbox=${viewbox}&autocomplete=1`;
 
       const res = await fetch(endpoint);
       const data = await res.json();
 
-      const results = data.map((item: any) => ({
+      setSuggestions(data.map((item: any) => ({
         title: item.display_name,
         lat: item.lat,
         lon: item.lon,
         place_id: item.place_id,
-      }));
-
-      setSuggestions(results);
+      })));
     }, 300);
 
     return () => clearTimeout(delay);
   }, [address]);
 
-const handleSearch = async (addr: string) => {
-  const result = await geocodeAddress(addr.trim());
-  if (!result) return alert('Address not found.');
+  const handleSearch = async (addr: string) => {
+    const result = await geocodeAddress(addr.trim());
+    if (!result) return alert('Address not found.');
 
-  const [lat, lon, metadata] = result; // Explicit unpack
-  const userPoint = point([lon, lat]);
-  const matchedZone = zones.find((zone) => booleanPointInPolygon(userPoint, zone));
+    const [lat, lon, metadata] = result;
+    const userPoint = point([lon, lat]);
 
-  if (matchedZone) {
-    setSelectedZones([{ ...matchedZone }]);
-    setSelectedSchool(matchedZone.properties?.School_Name || 'Unknown');
-  } else {
-    alert('No school zone found for this address.');
-    setSelectedZones([]);
-    setSelectedSchool(null);
-  }
+    const matchedPrimary = primary.find(zone => booleanPointInPolygon(userPoint, zone));
+    const matchedSecondary = secondary.find(zone => booleanPointInPolygon(userPoint, zone));
 
-  setPosition([lat, lon]); // ✅ Only pass [number, number]
-  const nearest = await findNearestStation(lat, lon);
-  if (nearest) setNearestStation(nearest);
-  setSuggestions([]);
+    const matchedZones: Feature<Polygon>[] = [
+      matchedPrimary ? { ...matchedPrimary, properties: { ...matchedPrimary.properties, zoneType: 'primary' } } : null,
+      matchedSecondary ? { ...matchedSecondary, properties: { ...matchedSecondary.properties, zoneType: 'secondary' } } : null,
+    ].filter(Boolean) as Feature<Polygon>[];
 
-  // ✨ Ancestry lookup
-  const suburb = metadata?.suburb || '';
-  const ancestry = getAncestryInfo(suburb);
-  console.log('📍 Suburb from geocoder:', suburb);
-  setAncestryInfo(ancestry);
-};
+    setSelectedZones(matchedZones);
+    setSelectedSchool({
+      primary: matchedPrimary?.properties?.School_Name || null,
+      secondary: matchedSecondary?.properties?.School_Name || null,
+    });
 
+    setPosition([lat, lon]);
+    setSuggestions([]);
+
+    const nearest = await findNearestStation(lat, lon);
+    if (nearest) setNearestStation(nearest);
+
+    const suburb = metadata?.suburb || '';
+    setAncestryInfo(getAncestryInfo(suburb));
+  };
 
   const handleSelect = (s: any) => {
     setAddress(s.title);
-    setPosition([parseFloat(s.lat), parseFloat(s.lon)]);
     handleSearch(s.title);
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-white flex flex-col items-center py-8 font-sans">
+    <div className="text-sm sm:text-base min-h-screen bg-gradient-to-br from-slate-100 to-white flex flex-col items-center py-8 font-sans">
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-center tracking-tight text-slate-800">
           🏡 Prop Buddy
@@ -108,7 +104,7 @@ const handleSearch = async (addr: string) => {
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               placeholder="Search address…"
-              className="w-full border border-slate-300 px-4 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full text-base sm:text-lg border border-slate-300 px-4 py-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
             {!!address && (
               <button
@@ -124,9 +120,9 @@ const handleSearch = async (addr: string) => {
                   <li
                     key={s.place_id || idx}
                     onClick={() => handleSelect(s)}
-                    className="px-4 py-2 hover:bg-slate-100 cursor-pointer text-sm text-slate-700"
+                    className="px-4 py-2 sm:py-3 text-xs sm:text-sm hover:bg-slate-100 cursor-pointer text-slate-700"
                   >
-                    {s.title}
+                    <span className="block line-clamp-2 leading-snug">{s.title}</span>
                   </li>
                 ))}
               </ul>
@@ -142,39 +138,35 @@ const handleSearch = async (addr: string) => {
         {/* Info Panel */}
         <div className="w-[350px] bg-white rounded-xl shadow-lg border border-slate-200 p-4 flex-shrink-0">
           <h4 className="text-xl font-semibold mb-3 text-slate-800">📋 Property Info</h4>
-          {selectedSchool || nearestStation ? (
+          {(selectedSchool?.primary || selectedSchool?.secondary || nearestStation) ? (
             <>
-              {selectedSchool && (
+              {(selectedSchool?.primary || selectedSchool?.secondary) && (
                 <div className="mb-3 border-b pb-2 border-slate-200">
                   <p className="text-slate-600">
-                    🏫 School Zone:
-                    <span className="text-indigo-700 font-medium"> {selectedSchool}</span>
+                    🏫 Zoned for:{' '}
+                    <span className="text-indigo-700 font-medium">
+                      {[selectedSchool?.primary, selectedSchool?.secondary].filter(Boolean).join(', ')}
+                    </span>
                   </p>
                 </div>
               )}
               {nearestStation && (
-                <div className="space-y-1">
-                  <p className="text-slate-600">
-                    🚆 Nearest Train:
-                    <span className="text-green-700 font-medium"> {nearestStation.name}</span>
-                  </p>
-                  <p className="text-sm text-slate-500">
-                    ⏳ {nearestStation.toCBDMinutes} min to CBD (est.)
-                  </p>
+                <p className="text-slate-600">
+                  🚆 Nearest Train:{' '}
+                  <span className="text-green-700 font-medium">{nearestStation.name}</span>,{' '}
+                  <span className="text-slate-500 text-xs sm:text-sm">{nearestStation.toCBDMinutes} min to CBD (est.)</span>
                   {nearestStation.walkingDistance && (
-                    <p className="text-sm text-slate-500">
-                      🚶 {nearestStation.walkingDistance}m walk to home
-                    </p>
+                    <>
+                      {' '}
+                      <span className="text-slate-500 text-xs sm:text-sm">🚶 {nearestStation.walkingDistance}m walk to home</span>
+                    </>
                   )}
-                </div>
+                </p>
               )}
               {ancestryInfo && (
-                <div className="mt-4 border-t pt-3 text-slate-600 text-sm">
+                <div className="mt-4 border-t pt-3 text-slate-600 text-xs sm:text-sm">
                   🧬 <strong>Ancestries:</strong>{' '}
-                  {ancestryInfo.ancestries
-                    .slice(0, 5)
-                    .map((a: any) => `${a.group} ${a.percent}%`)
-                    .join(', ')}
+                  {ancestryInfo.ancestries.slice(0, 5).map((a: any) => `${a.group} ${a.percent}%`).join(', ')}
                   <span className="text-slate-400"> (2021 Census)</span>
                 </div>
               )}

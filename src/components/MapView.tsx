@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import { Feature } from 'geojson';
+import { Feature, Polygon } from 'geojson';
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import trainIcon from '../assets/icons/train.png';
@@ -21,7 +21,7 @@ const homeMarker = L.icon({
 
 interface MapViewProps {
   position: [number, number];
-  schoolZones: Feature[];
+  schoolZones: Feature<Polygon>[];
   station: { name: string; lat: number; lon: number; toCBDMinutes?: number } | null;
 }
 
@@ -32,7 +32,7 @@ function useForceRedraw() {
   }, []);
 }
 
-function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
+function SchoolZoneLayer({ zones }: { zones: Feature<Polygon>[] }) {
   const map = useMap();
   const layerRef = useRef<L.GeoJSON | null>(null);
   useForceRedraw();
@@ -45,14 +45,24 @@ function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
     if (zones.length === 0) return;
 
     const layer = L.geoJSON(zones, {
-      style: {
-        color: 'red',
+      style: (feature) => {
+      const zoneType = feature?.properties?.zoneType;
+      return {
+        color:
+          zoneType === 'primary'
+            ? '#10b981'
+            : zoneType === 'secondary'
+            ? '#ef4444'
+            : '#6366f1',
         fillOpacity: 0.2,
-      },
-      onEachFeature: (feature, layer) => {
-        if (feature.properties?.School_Name) {
-          layer.bindPopup(feature.properties.School_Name);
-        }
+        weight: 2,
+      };
+console.log('Feature style zoneType:', feature?.properties?.zoneType, feature?.properties?.School_Name);
+    },
+     onEachFeature: (feature, layer) => {
+        const name = feature.properties?.School_Name || 'Unknown';
+        const type = feature.properties?.zoneType || 'Zone';
+        layer.bindPopup(`${type.charAt(0).toUpperCase() + type.slice(1)}: ${name}`);
       },
     });
 
@@ -66,7 +76,7 @@ function SchoolZoneLayer({ zones }: { zones: Feature[] }) {
 
 export default function MapView({ position, schoolZones, station }: MapViewProps) {
   return (
-    <div style={{ position: 'relative', width: '100%', height: '550px', backgroundColor: 'red' }}>
+    <div style={{ position: 'relative', width: '100%', height: '550px', backgroundColor: '#f9fafb' }}>
       <MapContainer
         center={position}
         zoom={14}
