@@ -2712,23 +2712,115 @@
       { "group": "Italian", "percent": 6 },
       { "group": "Greek", "percent": 4 }
     ]
+  },
+  "Clyde North": {
+    "total_population": 11177,
+    "ancestries": [
+      { "group": "English", "percent": 18 },
+      { "group": "Australian", "percent": 17 },
+      { "group": "Indian", "percent": 10 },
+      { "group": "Sri Lankan", "percent": 6 },
+      { "group": "Scottish", "percent": 4 }
+    ]
+  },
+  "Fraser Rise": {
+    "total_population": 9097,
+    "ancestries": [
+      { "group": "Indian", "percent": 16 },
+      { "group": "Australian", "percent": 14 },
+      { "group": "English", "percent": 13 },
+      { "group": "Filipino", "percent": 6 },
+      { "group": "Sri Lankan", "percent": 5 }
+    ]
+  },
+  "Bonnie Brook": {
+    "total_population": 333,
+    "ancestries": [
+      { "group": "English", "percent": 16 },
+      { "group": "Australian", "percent": 13 },
+      { "group": "Maltese", "percent": 13 },
+      { "group": "Indian", "percent": 6 },
+      { "group": "Filipino", "percent": 5 }
+    ]
+  },
+  "Deanside": {
+    "total_population": 654,
+    "ancestries": [
+      { "group": "Indian", "percent": 18 },
+      { "group": "Australian", "percent": 14 },
+      { "group": "English", "percent": 12 },
+      { "group": "Filipino", "percent": 6 },
+      { "group": "Sri Lankan", "percent": 5 }
+    ]
+  },
+  "Aintree": {
+    "total_population": 7982,
+    "ancestries": [
+      { "group": "Indian", "percent": 22 },
+      { "group": "Australian", "percent": 14 },
+      { "group": "Punjabi", "percent": 13 },
+      { "group": "English", "percent": 10 },
+      { "group": "Filipino", "percent": 5 }
+    ]
+  },
+  "Cobblebank": {
+    "total_population": 3601,
+    "ancestries": [
+      { "group": "Indian", "percent": 20 },
+      { "group": "Australian", "percent": 16 },
+      { "group": "English", "percent": 14 },
+      { "group": "Filipino", "percent": 6 },
+      { "group": "Sri Lankan", "percent": 5 }
+    ]
+  },
+  "Weir Views": {
+    "total_population": 4348,
+    "ancestries": [
+      { "group": "Indian", "percent": 18 },
+      { "group": "Australian", "percent": 16 },
+      { "group": "English", "percent": 14 },
+      { "group": "Filipino", "percent": 6 },
+      { "group": "Sri Lankan", "percent": 5 }
+    ]
+  },
+  "Manor Lakes": {
+    "total_population": 12675,
+    "ancestries": [
+      { "group": "Indian", "percent": 20 },
+      { "group": "Australian", "percent": 18 },
+      { "group": "English", "percent": 16 },
+      { "group": "Filipino", "percent": 6 },
+      { "group": "Sri Lankan", "percent": 5 }
+    ]
+  },
+  "Lucas": {
+    "total_population": 2994,
+    "ancestries": [
+      { "group": "English", "percent": 28 },
+      { "group": "Australian", "percent": 24 },
+      { "group": "Irish", "percent": 10 },
+      { "group": "Scottish", "percent": 6 },
+      { "group": "German", "percent": 3 }
+    ]
+  },
+  "Charlemont": {
+    "total_population": 2612,
+    "ancestries": [
+      { "group": "English", "percent": 26 },
+      { "group": "Australian", "percent": 22 },
+      { "group": "Irish", "percent": 10 },
+      { "group": "Scottish", "percent": 6 },
+      { "group": "Indian", "percent": 5 }
+    ]
+  },
+  "Clyde": {
+    "total_population": 11177,
+    "ancestries": [
+      { "group": "English", "percent": 24 },
+      { "group": "Australian", "percent": 23 },
+      { "group": "Irish", "percent": 6 },
+      { "group": "Indian", "percent": 5 },
+      { "group": "Scottish", "percent": 5 }
+    ]
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
