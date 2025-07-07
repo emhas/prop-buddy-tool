@@ -5,6 +5,7 @@ import { useSchoolZones } from './hooks/useSchoolZones';
 import { Feature, Polygon } from 'geojson';
 import { point, booleanPointInPolygon } from '@turf/turf';
 import { findNearestStation } from './utils/findNearestStation';
+import { getAncestryInfo } from './utils/getAncestryInfo'; // ✨ NEW
 
 function App() {
   const [address, setAddress] = useState('');
@@ -13,9 +14,9 @@ function App() {
   const [selectedZones, setSelectedZones] = useState<Feature<Polygon>[]>([]);
   const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
   const [nearestStation, setNearestStation] = useState<{ name: string; lat: number; lon: number; toCBDMinutes?: number; walkingDistance?: number } | null>(null);
+  const [ancestryInfo, setAncestryInfo] = useState<any | null>(null); // ✨ NEW
   const zones = useSchoolZones();
 
-   // 📨 Handle incoming share target
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const shared = params.get("shared");
@@ -52,27 +53,35 @@ function App() {
     return () => clearTimeout(delay);
   }, [address]);
 
-  const handleSearch = async (addr: string) => {
-    const result = await geocodeAddress(addr.trim());
-    if (!result) return alert('Address not found.');
+const handleSearch = async (addr: string) => {
+  const result = await geocodeAddress(addr.trim());
+  if (!result) return alert('Address not found.');
 
-    const userPoint = point([result[1], result[0]]);
-    const matchedZone = zones.find((zone) => booleanPointInPolygon(userPoint, zone));
+  const [lat, lon, metadata] = result; // Explicit unpack
+  const userPoint = point([lon, lat]);
+  const matchedZone = zones.find((zone) => booleanPointInPolygon(userPoint, zone));
 
-    if (matchedZone) {
-      setSelectedZones([{ ...matchedZone }]);
-      setSelectedSchool(matchedZone.properties?.School_Name || 'Unknown');
-    } else {
-      alert('No school zone found for this address.');
-      setSelectedZones([]);
-      setSelectedSchool(null);
-    }
+  if (matchedZone) {
+    setSelectedZones([{ ...matchedZone }]);
+    setSelectedSchool(matchedZone.properties?.School_Name || 'Unknown');
+  } else {
+    alert('No school zone found for this address.');
+    setSelectedZones([]);
+    setSelectedSchool(null);
+  }
 
-    setPosition(result);
-    const nearest = await findNearestStation(result[0], result[1]);
-    if (nearest) setNearestStation(nearest);
-    setSuggestions([]);
-  };
+  setPosition([lat, lon]); // ✅ Only pass [number, number]
+  const nearest = await findNearestStation(lat, lon);
+  if (nearest) setNearestStation(nearest);
+  setSuggestions([]);
+
+  // ✨ Ancestry lookup
+  const suburb = metadata?.suburb || '';
+  const ancestry = getAncestryInfo(suburb);
+  console.log('📍 Suburb from geocoder:', suburb);
+  setAncestryInfo(ancestry);
+};
+
 
   const handleSelect = (s: any) => {
     setAddress(s.title);
@@ -157,6 +166,16 @@ function App() {
                       🚶 {nearestStation.walkingDistance}m walk to home
                     </p>
                   )}
+                </div>
+              )}
+              {ancestryInfo && (
+                <div className="mt-4 border-t pt-3 text-slate-600 text-sm">
+                  🧬 <strong>Ancestries:</strong>{' '}
+                  {ancestryInfo.ancestries
+                    .slice(0, 5)
+                    .map((a: any) => `${a.group} ${a.percent}%`)
+                    .join(', ')}
+                  <span className="text-slate-400"> (2021 Census)</span>
                 </div>
               )}
             </>
