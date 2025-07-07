@@ -2,7 +2,7 @@
   "Aberfeldie": {
     "total_population": 3852,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 21 },
       { "group": "Italian", "percent": 14 },
       { "group": "Irish", "percent": 9 },
@@ -12,7 +12,7 @@
   "Airport West": {
     "total_population": 7523,
     "ancestries": [
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Australian", "percent": 22 },
       { "group": "Italian", "percent": 13 },
       { "group": "Irish", "percent": 7 },
@@ -23,7 +23,7 @@
     "total_population": 5364,
     "ancestries": [
       { "group": "Vietnamese", "percent": 18 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Australian", "percent": 13 },
       { "group": "Indian", "percent": 8 },
       { "group": "Chinese", "percent": 5 }
@@ -32,7 +32,7 @@
   "Albert Park": {
     "total_population": 6792,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 11 },
       { "group": "Scottish", "percent": 9 },
@@ -42,7 +42,7 @@
   "Altona": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 25 },
+      { "group": "English", "percent": 25 },
       { "group": "Australian", "percent": 22 },
       { "group": "Italian", "percent": 10 },
       { "group": "Indian", "percent": 6 },
@@ -52,7 +52,7 @@
   "Altona Meadows": {
     "total_population": 18245,
     "ancestries": [
-      { "group": "UK", "percent": 21 },
+      { "group": "English", "percent": 21 },
       { "group": "Australian", "percent": 20 },
       { "group": "Indian", "percent": 10 },
       { "group": "Vietnamese", "percent": 8 },
@@ -62,7 +62,7 @@
   "Armadale": {
     "total_population": 9384,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 18 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -72,7 +72,7 @@
   "Ascot Vale": {
     "total_population": 14456,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 20 },
       { "group": "Italian", "percent": 9 },
       { "group": "Irish", "percent": 8 },
@@ -82,7 +82,7 @@
   "Ashburton": {
     "total_population": 7892,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 19 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -93,7 +93,7 @@
     "total_population": 6543,
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 15 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 4 }
@@ -103,7 +103,7 @@
   "Aspendale": {
     "total_population": 6702,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 6 },
@@ -113,7 +113,7 @@
   "Aspendale Gardens": {
     "total_population": 4890,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 24 },
       { "group": "Indian", "percent": 9 },
       { "group": "Irish", "percent": 7 },
@@ -124,7 +124,7 @@
     "total_population": 3451,
     "ancestries": [
       { "group": "Australian", "percent": 26 },
-      { "group": "UK", "percent": 25 },
+      { "group": "English", "percent": 25 },
       { "group": "Italian", "percent": 12 },
       { "group": "Greek", "percent": 5 },
       { "group": "Irish", "percent": 4 }
@@ -134,7 +134,7 @@
     "total_population": 3120,
     "ancestries": [
       { "group": "Chinese", "percent": 34 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 12 },
       { "group": "Indian", "percent": 6 },
       { "group": "Vietnamese", "percent": 3 }
@@ -145,7 +145,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 21 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 19 },
+      { "group": "English", "percent": 19 },
       { "group": "Greek", "percent": 6 },
       { "group": "Macedonian", "percent": 4 }
     ]
@@ -153,7 +153,7 @@
   "Balaclava": {
     "total_population": 5210,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 18 },
       { "group": "Jewish", "percent": 12 },
       { "group": "Irish", "percent": 9 },
@@ -164,7 +164,7 @@
     "total_population": 13245,
     "ancestries": [
       { "group": "Chinese", "percent": 32 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 15 },
       { "group": "Irish", "percent": 6 },
       { "group": "Greek", "percent": 3 }
@@ -174,7 +174,7 @@
     "total_population": 20412,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 16 },
       { "group": "Greek", "percent": 5 },
       { "group": "Italian", "percent": 4 }
@@ -183,7 +183,7 @@
   "Bayswater": {
     "total_population": 11678,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 8 },
       { "group": "German", "percent": 5 },
@@ -193,7 +193,7 @@
   "Bayswater North": {
     "total_population": 8921,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -204,7 +204,7 @@
   "Beaumaris": {
     "total_population": 13456,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 23 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 7 },
@@ -214,7 +214,7 @@
   "Bentleigh": {
     "total_population": 16982,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 20 },
       { "group": "Greek", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
@@ -224,7 +224,7 @@
   "Bentleigh East": {
     "total_population": 27145,
     "ancestries": [
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Australian", "percent": 21 },
       { "group": "Greek", "percent": 11 },
       { "group": "Chinese", "percent": 9 },
@@ -234,7 +234,7 @@
   "Berwick": {
     "total_population": 48672,
     "ancestries": [
-      { "group": "UK", "percent": 25 },
+      { "group": "English", "percent": 25 },
       { "group": "Australian", "percent": 23 },
       { "group": "Indian", "percent": 10 },
       { "group": "Irish", "percent": 7 },
@@ -245,7 +245,7 @@
     "total_population": 13420,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Irish", "percent": 6 },
       { "group": "Indian", "percent": 4 }
@@ -255,7 +255,7 @@
     "total_population": 9872,
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
-      { "group": "UK", "percent": 21 },
+      { "group": "English", "percent": 21 },
       { "group": "Australian", "percent": 19 },
       { "group": "Greek", "percent": 5 },
       { "group": "Italian", "percent": 4 }
@@ -265,7 +265,7 @@
     "total_population": 10456,
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 6 },
       { "group": "Greek", "percent": 4 }
@@ -274,7 +274,7 @@
   "Bonbeach": {
     "total_population": 6123,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -284,7 +284,7 @@
   "Boronia": {
     "total_population": 22984,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 8 },
       { "group": "German", "percent": 5 },
@@ -295,7 +295,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Chinese", "percent": 30 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 17 },
       { "group": "Greek", "percent": 5 },
       { "group": "Indian", "percent": 4 }
@@ -306,7 +306,7 @@
     "ancestries": [
       { "group": "Vietnamese", "percent": 24 },
       { "group": "Chinese", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Australian", "percent": 8 },
       { "group": "Indian", "percent": 6 }
     ]
@@ -314,7 +314,7 @@
   "Brighton": {
     "total_population": 23045,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Jewish", "percent": 6 },
@@ -324,7 +324,7 @@
   "Brighton East": {
     "total_population": 16540,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "Jewish", "percent": 6 },
@@ -336,7 +336,7 @@
     "ancestries": [
       { "group": "Turkish", "percent": 18 },
       { "group": "Australian", "percent": 14 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Iraqi", "percent": 9 },
       { "group": "Lebanese", "percent": 6 }
     ]
@@ -344,7 +344,7 @@
   "Brunswick": {
     "total_population": 24876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 20 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 6 },
@@ -355,7 +355,7 @@
     "total_population": 21567,
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 5 }
@@ -365,7 +365,7 @@
     "total_population": 15234,
     "ancestries": [
       { "group": "Chinese", "percent": 29 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 17 },
       { "group": "Indian", "percent": 6 },
       { "group": "Greek", "percent": 4 }
@@ -375,7 +375,7 @@
     "total_population": 10892,
     "ancestries": [
       { "group": "Chinese", "percent": 31 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 3 }
@@ -384,7 +384,7 @@
   "Camberwell": {
     "total_population": 22567,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 20 },
       { "group": "Chinese", "percent": 12 },
       { "group": "Irish", "percent": 8 },
@@ -396,7 +396,7 @@
     "ancestries": [
       { "group": "Turkish", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 15 },
+      { "group": "English", "percent": 15 },
       { "group": "Iraqi", "percent": 7 },
       { "group": "Lebanese", "percent": 5 }
     ]
@@ -404,7 +404,7 @@
   "Canterbury": {
     "total_population": 7890,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 19 },
       { "group": "Chinese", "percent": 14 },
       { "group": "Irish", "percent": 7 },
@@ -415,7 +415,7 @@
     "total_population": 10456,
     "ancestries": [
       { "group": "Chinese", "percent": 34 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Australian", "percent": 12 },
       { "group": "Indian", "percent": 8 },
       { "group": "Italian", "percent": 5 }
@@ -425,7 +425,7 @@
     "total_population": 12345,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 4 }
@@ -434,7 +434,7 @@
   "Carrum": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -444,7 +444,7 @@
   "Carrum Downs": {
     "total_population": 20123,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 24 },
       { "group": "Indian", "percent": 10 },
       { "group": "Irish", "percent": 7 },
@@ -455,7 +455,7 @@
     "total_population": 13456,
     "ancestries": [
       { "group": "Jewish", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Russian", "percent": 6 },
       { "group": "Chinese", "percent": 5 }
@@ -466,7 +466,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Jewish", "percent": 30 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Russian", "percent": 6 },
       { "group": "Chinese", "percent": 4 }
@@ -477,7 +477,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
       { "group": "Indian", "percent": 10 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Greek", "percent": 5 }
     ]
@@ -485,7 +485,7 @@
   "Cheltenham": {
     "total_population": 18456,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 22 },
       { "group": "Indian", "percent": 9 },
       { "group": "Chinese", "percent": 6 },
@@ -495,7 +495,7 @@
   "Chelsea": {
     "total_population": 7654,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -505,7 +505,7 @@
   "Chelsea Heights": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 23 },
       { "group": "Indian", "percent": 8 },
       { "group": "Irish", "percent": 6 },
@@ -515,7 +515,7 @@
   "Chirnside Park": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -528,7 +528,7 @@
       { "group": "Vietnamese", "percent": 22 },
       { "group": "Chinese", "percent": 18 },
       { "group": "Indian", "percent": 10 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Australian", "percent": 10 }
     ]
   },
@@ -538,14 +538,14 @@
       { "group": "Chinese", "percent": 26 },
       { "group": "Indian", "percent": 12 },
       { "group": "Sri Lankan", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Australian", "percent": 8 }
     ]
   },
   "Clifton Hill": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 6 },
@@ -556,7 +556,7 @@
     "total_population": 23456,
     "ancestries": [
       { "group": "Italian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Australian", "percent": 15 },
       { "group": "Greek", "percent": 10 },
       { "group": "Indian", "percent": 6 }
@@ -567,7 +567,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 17 },
+      { "group": "English", "percent": 17 },
       { "group": "Greek", "percent": 8 },
       { "group": "Indian", "percent": 5 }
     ]
@@ -575,7 +575,7 @@
   "Collingwood": {
     "total_population": 7654,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -587,7 +587,7 @@
     "ancestries": [
       { "group": "Turkish", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 15 },
+      { "group": "English", "percent": 15 },
       { "group": "Iraqi", "percent": 8 },
       { "group": "Lebanese", "percent": 6 }
     ]
@@ -597,7 +597,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 18 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Turkish", "percent": 8 },
       { "group": "Iraqi", "percent": 6 }
     ]
@@ -605,7 +605,7 @@
   "Cranbourne": {
     "total_population": 28976,
     "ancestries": [
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Australian", "percent": 22 },
       { "group": "Indian", "percent": 12 },
       { "group": "New Zealander", "percent": 6 },
@@ -617,7 +617,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Sri Lankan", "percent": 8 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -627,7 +627,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 22 },
       { "group": "Australian", "percent": 17 },
-      { "group": "UK", "percent": 15 },
+      { "group": "English", "percent": 15 },
       { "group": "Sri Lankan", "percent": 9 },
       { "group": "Chinese", "percent": 4 }
     ]
@@ -635,7 +635,7 @@
   "Cranbourne South": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 8 },
       { "group": "Indian", "percent": 6 },
@@ -647,7 +647,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 19 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Sri Lankan", "percent": 7 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -655,7 +655,7 @@
   "Cremorne": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -667,7 +667,7 @@
     "total_population": 3412,
     "ancestries": [
       { "group": "Australian", "percent": 32 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -676,7 +676,7 @@
   "Croydon": {
     "total_population": 23456,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -686,7 +686,7 @@
   "Croydon Hills": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 8 },
       { "group": "German", "percent": 4 },
@@ -696,7 +696,7 @@
   "Croydon North": {
     "total_population": 7890,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -706,7 +706,7 @@
   "Croydon South": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 23 },
       { "group": "Irish", "percent": 8 },
       { "group": "German", "percent": 5 },
@@ -720,7 +720,7 @@
       { "group": "Afghan", "percent": 12 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   },
   "Dandenong North": {
@@ -730,7 +730,7 @@
       { "group": "Sri Lankan", "percent": 12 },
       { "group": "Afghan", "percent": 10 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 }
+      { "group": "English", "percent": 9 }
     ]
   },
   "Dandenong South": {
@@ -740,13 +740,13 @@
       { "group": "Afghan", "percent": 14 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   },
   "Deepdene": {
     "total_population": 3210,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -759,7 +759,7 @@
       { "group": "Vietnamese", "percent": 18 },
       { "group": "Indian", "percent": 12 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Filipino", "percent": 6 }
     ]
   }  ,
@@ -767,7 +767,7 @@
     "total_population": 7954,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 11 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 4 }
@@ -779,7 +779,7 @@
       { "group": "Vietnamese", "percent": 17 },
       { "group": "Indian", "percent": 13 },
       { "group": "Australian", "percent": 12 },
-      { "group": "UK", "percent": 11 },
+      { "group": "English", "percent": 11 },
       { "group": "Greek", "percent": 5 }
     ]
   },
@@ -789,14 +789,14 @@
       { "group": "Vietnamese", "percent": 21 },
       { "group": "Indian", "percent": 14 },
       { "group": "Australian", "percent": 11 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Chinese", "percent": 6 }
     ]
   },
   "Diamond Creek": {
     "total_population": 11921,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 29 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 4 },
@@ -807,7 +807,7 @@
     "total_population": 24678,
     "ancestries": [
       { "group": "Chinese", "percent": 34 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 14 },
       { "group": "Greek", "percent": 5 },
       { "group": "Italian", "percent": 4 }
@@ -817,7 +817,7 @@
     "total_population": 27500,
     "ancestries": [
       { "group": "Chinese", "percent": 32 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 15 },
       { "group": "Greek", "percent": 5 },
       { "group": "Italian", "percent": 4 }
@@ -827,7 +827,7 @@
     "total_population": 11678,
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 17 },
       { "group": "Italian", "percent": 6 },
       { "group": "Greek", "percent": 5 }
@@ -836,7 +836,7 @@
   "Doreen": {
     "total_population": 21987,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 28 },
       { "group": "Indian", "percent": 9 },
       { "group": "Irish", "percent": 8 },
@@ -846,7 +846,7 @@
   "East Melbourne": {
     "total_population": 5021,
     "ancestries": [
-      { "group": "UK", "percent": 36 },
+      { "group": "English", "percent": 36 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
@@ -857,7 +857,7 @@
     "total_population": 13764,
     "ancestries": [
       { "group": "Australian", "percent": 37 },
-      { "group": "UK", "percent": 31 },
+      { "group": "English", "percent": 31 },
       { "group": "Irish", "percent": 9 },
       { "group": "Scottish", "percent": 5 },
       { "group": "German", "percent": 3 }
@@ -866,7 +866,7 @@
   "Elsternwick": {
     "total_population": 10521,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Jewish", "percent": 14 },
       { "group": "Australian", "percent": 13 },
       { "group": "Irish", "percent": 9 },
@@ -876,7 +876,7 @@
   "Eltham": {
     "total_population": 18450,
     "ancestries": [
-      { "group": "UK", "percent": 31 },
+      { "group": "English", "percent": 31 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -886,7 +886,7 @@
   "Elwood": {
     "total_population": 15987,
     "ancestries": [
-      { "group": "UK", "percent": 33 },
+      { "group": "English", "percent": 33 },
       { "group": "Australian", "percent": 21 },
       { "group": "Jewish", "percent": 10 },
       { "group": "Irish", "percent": 9 },
@@ -898,7 +898,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 17 },
       { "group": "Australian", "percent": 14 },
-      { "group": "UK", "percent": 13 },
+      { "group": "English", "percent": 13 },
       { "group": "Sri Lankan", "percent": 9 },
       { "group": "Vietnamese", "percent": 7 }
     ]
@@ -907,7 +907,7 @@
     "total_population": 32178,
     "ancestries": [
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Indian", "percent": 15 },
       { "group": "Italian", "percent": 9 },
       { "group": "Greek", "percent": 7 }
@@ -916,7 +916,7 @@
   "Essendon": {
     "total_population": 20876,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 20 },
       { "group": "Italian", "percent": 14 },
       { "group": "Irish", "percent": 8 },
@@ -926,7 +926,7 @@
   "Essendon North": {
     "total_population": 4987,
     "ancestries": [
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Australian", "percent": 20 },
       { "group": "Italian", "percent": 12 },
       { "group": "Irish", "percent": 9 },
@@ -939,14 +939,14 @@
       { "group": "Indian", "percent": 20 },
       { "group": "Vietnamese", "percent": 15 },
       { "group": "Australian", "percent": 14 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Sri Lankan", "percent": 8 }
     ]
   },
   "Fairfield": {
     "total_population": 7823,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 23 },
       { "group": "Greek", "percent": 10 },
       { "group": "Italian", "percent": 7 },
@@ -959,14 +959,14 @@
       { "group": "Italian", "percent": 21 },
       { "group": "Australian", "percent": 17 },
       { "group": "Indian", "percent": 11 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Iraqi", "percent": 6 }
     ]
   }  ,
   "Ferntree Gully": {
     "total_population": 26012,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -976,7 +976,7 @@
   "Fitzroy": {
     "total_population": 10432,
     "ancestries": [
-      { "group": "UK", "percent": 31 },
+      { "group": "English", "percent": 31 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -986,7 +986,7 @@
   "Fitzroy North": {
     "total_population": 8321,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 21 },
       { "group": "Irish", "percent": 11 },
       { "group": "Italian", "percent": 6 },
@@ -1000,14 +1000,14 @@
       { "group": "Chinese", "percent": 14 },
       { "group": "Indian", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   },
   "Forest Hill": {
     "total_population": 10234,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 6 },
       { "group": "Greek", "percent": 4 }
@@ -1016,7 +1016,7 @@
   "Frankston": {
     "total_population": 36321,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 10 },
       { "group": "German", "percent": 5 },
@@ -1027,7 +1027,7 @@
     "total_population": 6543,
     "ancestries": [
       { "group": "Australian", "percent": 30 },
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 4 },
       { "group": "Italian", "percent": 3 }
@@ -1036,7 +1036,7 @@
   "Frankston South": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "German", "percent": 5 },
@@ -1046,7 +1046,7 @@
   "Gisborne": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1058,7 +1058,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 17 },
+      { "group": "English", "percent": 17 },
       { "group": "Greek", "percent": 6 },
       { "group": "Macedonian", "percent": 4 }
     ]
@@ -1068,7 +1068,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 22 },
       { "group": "Chinese", "percent": 18 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Australian", "percent": 12 },
       { "group": "Greek", "percent": 5 }
     ]
@@ -1076,7 +1076,7 @@
   "Glen Iris": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -1088,7 +1088,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 36 },
       { "group": "Indian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Australian", "percent": 8 },
       { "group": "Sri Lankan", "percent": 6 }
     ]
@@ -1098,7 +1098,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 18 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 15 },
+      { "group": "English", "percent": 15 },
       { "group": "Indian", "percent": 10 },
       { "group": "Greek", "percent": 6 }
     ]
@@ -1106,7 +1106,7 @@
   "Greensborough": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -1118,7 +1118,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Turkish", "percent": 8 },
       { "group": "Indian", "percent": 6 }
     ]
@@ -1128,7 +1128,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 22 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Greek", "percent": 6 },
       { "group": "Indian", "percent": 5 }
     ]
@@ -1139,14 +1139,14 @@
       { "group": "Indian", "percent": 20 },
       { "group": "Sri Lankan", "percent": 14 },
       { "group": "Australian", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Afghan", "percent": 6 }
     ]
   },
   "Hampton": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1156,7 +1156,7 @@
   "Hampton East": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "Greek", "percent": 5 },
@@ -1168,7 +1168,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 18 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Vietnamese", "percent": 7 }
     ]
@@ -1176,7 +1176,7 @@
   "Hawthorn": {
     "total_population": 22123,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 20 },
       { "group": "Chinese", "percent": 12 },
       { "group": "Irish", "percent": 8 },
@@ -1186,7 +1186,7 @@
   "Hawthorn East": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 21 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 7 },
@@ -1197,7 +1197,7 @@
     "total_population": 7890,
     "ancestries": [
       { "group": "Australian", "percent": 35 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -1207,7 +1207,7 @@
     "total_population": 5432,
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -1216,7 +1216,7 @@
   "Heidelberg": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 22 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 6 },
@@ -1226,7 +1226,7 @@
   "Heidelberg Heights": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 25 },
+      { "group": "English", "percent": 25 },
       { "group": "Australian", "percent": 23 },
       { "group": "Italian", "percent": 11 },
       { "group": "Greek", "percent": 6 },
@@ -1237,7 +1237,7 @@
     "total_population": 5432,
     "ancestries": [
       { "group": "Australian", "percent": 26 },
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 5 },
       { "group": "Indian", "percent": 4 }
@@ -1246,7 +1246,7 @@
   "Highett": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 9 },
       { "group": "Chinese", "percent": 6 },
@@ -1257,7 +1257,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Australian", "percent": 24 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Indian", "percent": 12 },
       { "group": "Italian", "percent": 8 },
       { "group": "Greek", "percent": 5 }
@@ -1268,7 +1268,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 16 },
       { "group": "Australian", "percent": 15 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Filipino", "percent": 6 },
       { "group": "Italian", "percent": 5 }
     ]
@@ -1278,7 +1278,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
       { "group": "Indian", "percent": 12 },
-      { "group": "UK", "percent": 11 },
+      { "group": "English", "percent": 11 },
       { "group": "Australian", "percent": 10 },
       { "group": "Greek", "percent": 5 }
     ]
@@ -1289,14 +1289,14 @@
       { "group": "Indian", "percent": 20 },
       { "group": "Sri Lankan", "percent": 14 },
       { "group": "Chinese", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Australian", "percent": 9 }
     ]
   },
   "Ivanhoe": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -1306,7 +1306,7 @@
   "Ivanhoe East": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1317,7 +1317,7 @@
     "total_population": 3210,
     "ancestries": [
       { "group": "Australian", "percent": 26 },
-      { "group": "UK", "percent": 24 },
+      { "group": "English", "percent": 24 },
       { "group": "Turkish", "percent": 10 },
       { "group": "Italian", "percent": 8 },
       { "group": "Indian", "percent": 6 }
@@ -1329,7 +1329,7 @@
       { "group": "Vietnamese", "percent": 20 },
       { "group": "Indian", "percent": 14 },
       { "group": "Australian", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Filipino", "percent": 6 }
     ]
   },
@@ -1338,7 +1338,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 22 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Greek", "percent": 6 },
       { "group": "Macedonian", "percent": 4 }
     ]
@@ -1348,7 +1348,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Indian", "percent": 10 },
       { "group": "Greek", "percent": 5 }
     ]
@@ -1358,7 +1358,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 21 },
       { "group": "Australian", "percent": 19 },
-      { "group": "UK", "percent": 17 },
+      { "group": "English", "percent": 17 },
       { "group": "Greek", "percent": 6 },
       { "group": "Indian", "percent": 5 }
     ]
@@ -1368,7 +1368,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 24 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Greek", "percent": 6 },
       { "group": "Macedonian", "percent": 4 }
     ]
@@ -1376,7 +1376,7 @@
   "Kensington": {
     "total_population": 8765,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 20 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -1386,7 +1386,7 @@
   "Kew": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 14 },
       { "group": "Irish", "percent": 7 },
@@ -1396,7 +1396,7 @@
   "Kew East": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 23 },
       { "group": "Chinese", "percent": 12 },
       { "group": "Irish", "percent": 6 },
@@ -1416,7 +1416,7 @@
   "Kilsyth": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -1426,7 +1426,7 @@
   "Kilsyth South": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 8 },
       { "group": "German", "percent": 4 },
@@ -1437,7 +1437,7 @@
     "total_population": 3210,
     "ancestries": [
       { "group": "Australian", "percent": 36 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -1448,7 +1448,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
       { "group": "Indian", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Australian", "percent": 9 },
       { "group": "Vietnamese", "percent": 5 }
     ]
@@ -1456,7 +1456,7 @@
   "Kingsville": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1466,7 +1466,7 @@
   "Knoxfield": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 27 },
+      { "group": "English", "percent": 27 },
       { "group": "Australian", "percent": 24 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Indian", "percent": 8 },
@@ -1476,7 +1476,7 @@
   "Kooyong": {
     "total_population": 3210,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1487,7 +1487,7 @@
     "total_population": 7654,
     "ancestries": [
       { "group": "Australian", "percent": 28 },
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Indian", "percent": 12 },
       { "group": "Filipino", "percent": 6 },
       { "group": "Irish", "percent": 5 }
@@ -1506,7 +1506,7 @@
   "Langwarrin": {
     "total_population": 19876,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 27 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -1516,7 +1516,7 @@
   "Langwarrin South": {
     "total_population": 3210,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "German", "percent": 4 },
@@ -1528,7 +1528,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 18 },
       { "group": "Australian", "percent": 14 },
-      { "group": "UK", "percent": 13 },
+      { "group": "English", "percent": 13 },
       { "group": "Filipino", "percent": 7 },
       { "group": "Chinese", "percent": 6 }
     ]
@@ -1536,7 +1536,7 @@
   "Lilydale": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 27 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -1547,7 +1547,7 @@
     "total_population": 2100,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 5 },
       { "group": "German", "percent": 3 }
@@ -1557,7 +1557,7 @@
     "total_population": 4321,
     "ancestries": [
       { "group": "Australian", "percent": 36 },
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Irish", "percent": 9 },
       { "group": "Scottish", "percent": 5 },
       { "group": "German", "percent": 3 }
@@ -1566,7 +1566,7 @@
   "Lower Plenty": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -1578,7 +1578,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Chinese", "percent": 6 }
     ]
@@ -1588,7 +1588,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Sri Lankan", "percent": 9 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -1596,7 +1596,7 @@
   "Lysterfield": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 6 },
@@ -1606,7 +1606,7 @@
   "Macleod": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "Chinese", "percent": 6 },
@@ -1620,13 +1620,13 @@
       { "group": "Chinese", "percent": 14 },
       { "group": "Indian", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   },
   "Malvern": {
     "total_population": 13210,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1636,7 +1636,7 @@
   "Malvern East": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -1646,7 +1646,7 @@
   "Manifold Heights": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1660,14 +1660,14 @@
       { "group": "Chinese", "percent": 14 },
       { "group": "Indian", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   }  ,
   "Maryborough": {
     "total_population": 7890,
     "ancestries": [
       { "group": "Australian", "percent": 38 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -1676,7 +1676,7 @@
   "McCrae": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1688,7 +1688,7 @@
     "ancestries": [
       { "group": "Turkish", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Iraqi", "percent": 10 },
       { "group": "Lebanese", "percent": 6 }
     ]
@@ -1697,7 +1697,7 @@
     "total_population": 169856,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Australian", "percent": 12 },
       { "group": "Indian", "percent": 10 },
       { "group": "Vietnamese", "percent": 5 }
@@ -1707,7 +1707,7 @@
     "total_population": 25432,
     "ancestries": [
       { "group": "Australian", "percent": 22 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Indian", "percent": 14 },
       { "group": "Filipino", "percent": 8 },
       { "group": "Irish", "percent": 6 }
@@ -1717,7 +1717,7 @@
     "total_population": 14321,
     "ancestries": [
       { "group": "Australian", "percent": 24 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Indian", "percent": 12 },
       { "group": "Filipino", "percent": 7 },
       { "group": "Irish", "percent": 5 }
@@ -1726,7 +1726,7 @@
   "Mentone": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1738,7 +1738,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Filipino", "percent": 7 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -1746,7 +1746,7 @@
   "Middle Park": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1759,7 +1759,7 @@
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 14 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Greek", "percent": 6 }
     ]
   }  ,
@@ -1767,7 +1767,7 @@
     "total_population": 15432,
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 4 }
@@ -1777,7 +1777,7 @@
     "total_population": 5432,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -1787,7 +1787,7 @@
     "total_population": 6543,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Irish", "percent": 8 },
       { "group": "Greek", "percent": 3 }
@@ -1796,7 +1796,7 @@
   "Montmorency": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 9 },
       { "group": "Italian", "percent": 5 },
@@ -1806,7 +1806,7 @@
   "Moonee Ponds": {
     "total_population": 13210,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Italian", "percent": 12 },
       { "group": "Irish", "percent": 8 },
@@ -1816,7 +1816,7 @@
   "Moorabbin": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1826,7 +1826,7 @@
   "Mooroolbark": {
     "total_population": 19876,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 27 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -1836,7 +1836,7 @@
   "Mordialloc": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -1846,7 +1846,7 @@
   "Mount Eliza": {
     "total_population": 18456,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1857,7 +1857,7 @@
     "total_population": 9876,
     "ancestries": [
       { "group": "Australian", "percent": 32 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -1867,7 +1867,7 @@
     "total_population": 21123,
     "ancestries": [
       { "group": "Chinese", "percent": 30 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -1878,7 +1878,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
       { "group": "Indian", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Australian", "percent": 9 },
       { "group": "Greek", "percent": 4 }
     ]
@@ -1887,7 +1887,7 @@
     "total_population": 9876,
     "ancestries": [
       { "group": "Chinese", "percent": 22 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -1898,7 +1898,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 18 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Sri Lankan", "percent": 8 },
       { "group": "Filipino", "percent": 6 }
     ]
@@ -1908,7 +1908,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Italian", "percent": 5 }
     ]
@@ -1918,7 +1918,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Sri Lankan", "percent": 9 },
       { "group": "Filipino", "percent": 5 }
     ]
@@ -1926,7 +1926,7 @@
   "Newport": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 6 },
@@ -1938,7 +1938,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Greek", "percent": 6 },
       { "group": "Irish", "percent": 5 }
     ]
@@ -1950,7 +1950,7 @@
       { "group": "Indian", "percent": 14 },
       { "group": "Sri Lankan", "percent": 12 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 }
+      { "group": "English", "percent": 9 }
     ]
   },
   "Noble Park North": {
@@ -1960,13 +1960,13 @@
       { "group": "Indian", "percent": 12 },
       { "group": "Sri Lankan", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   }  ,
   "Northcote": {
     "total_population": 19876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Greek", "percent": 12 },
       { "group": "Italian", "percent": 8 },
@@ -1977,7 +1977,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 14 },
       { "group": "Indian", "percent": 10 },
       { "group": "Vietnamese", "percent": 5 }
@@ -1986,7 +1986,7 @@
   "North Warrandyte": {
     "total_population": 3210,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -1998,7 +1998,7 @@
     "ancestries": [
       { "group": "Chinese", "percent": 30 },
       { "group": "Indian", "percent": 14 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Australian", "percent": 10 },
       { "group": "Sri Lankan", "percent": 6 }
     ]
@@ -2007,7 +2007,7 @@
     "total_population": 9876,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -2017,7 +2017,7 @@
     "total_population": 13210,
     "ancestries": [
       { "group": "Greek", "percent": 28 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Indian", "percent": 6 }
@@ -2028,7 +2028,7 @@
     "ancestries": [
       { "group": "Greek", "percent": 26 },
       { "group": "Chinese", "percent": 20 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Australian", "percent": 14 },
       { "group": "Indian", "percent": 8 }
     ]
@@ -2037,7 +2037,7 @@
     "total_population": 8765,
     "ancestries": [
       { "group": "Greek", "percent": 24 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Chinese", "percent": 12 },
       { "group": "Indian", "percent": 6 }
@@ -2048,7 +2048,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Filipino", "percent": 7 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -2056,7 +2056,7 @@
   "Ormond": {
     "total_population": 8328,
     "ancestries": [
-      { "group": "UK", "percent": 19 },
+      { "group": "English", "percent": 19 },
       { "group": "Chinese", "percent": 11 },
       { "group": "Australian", "percent": 7 },
       { "group": "Indian", "percent": 8 },
@@ -2067,7 +2067,7 @@
     "total_population": 29456,
     "ancestries": [
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Indian", "percent": 14 },
       { "group": "Filipino", "percent": 7 },
       { "group": "New Zealander", "percent": 5 }
@@ -2076,7 +2076,7 @@
   "Parkdale": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 24 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2087,7 +2087,7 @@
     "total_population": 5432,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 8 },
       { "group": "Vietnamese", "percent": 4 }
@@ -2098,7 +2098,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Greek", "percent": 6 },
       { "group": "Indian", "percent": 5 }
     ]
@@ -2108,7 +2108,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 24 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Greek", "percent": 6 },
       { "group": "Indian", "percent": 4 }
     ]
@@ -2117,7 +2117,7 @@
     "total_population": 4321,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2130,13 +2130,13 @@
       { "group": "Chinese", "percent": 14 },
       { "group": "Filipino", "percent": 10 },
       { "group": "Australian", "percent": 9 },
-      { "group": "UK", "percent": 8 }
+      { "group": "English", "percent": 8 }
     ]
   },
   "Port Melbourne": {
     "total_population": 11234,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2146,7 +2146,7 @@
   "Portarlington": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -2156,7 +2156,7 @@
   "Prahran": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 20 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2169,14 +2169,14 @@
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Greek", "percent": 12 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Indian", "percent": 6 }
     ]
   },
   "Princes Hill": {
     "total_population": 3210,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2190,13 +2190,13 @@
       { "group": "Australian", "percent": 20 },
       { "group": "Greek", "percent": 10 },
       { "group": "Indian", "percent": 8 },
-      { "group": "UK", "percent": 7 }
+      { "group": "English", "percent": 7 }
     ]
   },
   "Richmond": {
     "total_population": 27890,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 20 },
       { "group": "Vietnamese", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
@@ -2206,7 +2206,7 @@
   "Ringwood": {
     "total_population": 19876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Chinese", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -2216,7 +2216,7 @@
   "Ringwood East": {
     "total_population": 8765,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 9 },
       { "group": "Chinese", "percent": 6 },
@@ -2226,7 +2226,7 @@
   "Ringwood North": {
     "total_population": 7654,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2237,7 +2237,7 @@
     "total_population": 3210,
     "ancestries": [
       { "group": "Jewish", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Russian", "percent": 6 },
       { "group": "Chinese", "percent": 4 }
@@ -2248,7 +2248,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 24 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Filipino", "percent": 8 },
       { "group": "Chinese", "percent": 6 }
     ]
@@ -2256,7 +2256,7 @@
   "Rosanna": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Italian", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -2266,7 +2266,7 @@
   "Rowville": {
     "total_population": 33678,
     "ancestries": [
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Australian", "percent": 24 },
       { "group": "Indian", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
@@ -2279,14 +2279,14 @@
       { "group": "Turkish", "percent": 18 },
       { "group": "Australian", "percent": 16 },
       { "group": "Indian", "percent": 14 },
-      { "group": "UK", "percent": 10 },
+      { "group": "English", "percent": 10 },
       { "group": "Iraqi", "percent": 8 }
     ]
   },
   "Rye": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -2296,7 +2296,7 @@
   "Safety Beach": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 26 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -2309,7 +2309,7 @@
       { "group": "Vietnamese", "percent": 26 },
       { "group": "Indian", "percent": 14 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Filipino", "percent": 6 }
     ]
   },
@@ -2317,7 +2317,7 @@
     "total_population": 2100,
     "ancestries": [
       { "group": "Australian", "percent": 36 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2326,7 +2326,7 @@
   "St Helena": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 6 },
@@ -2336,7 +2336,7 @@
   "St Kilda": {
     "total_population": 19876,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 20 },
       { "group": "Jewish", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -2347,7 +2347,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Jewish", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Russian", "percent": 6 },
       { "group": "Chinese", "percent": 4 }
@@ -2356,7 +2356,7 @@
   "St Kilda West": {
     "total_population": 4321,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Jewish", "percent": 6 },
@@ -2368,7 +2368,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 22 },
       { "group": "Australian", "percent": 20 },
-      { "group": "UK", "percent": 18 },
+      { "group": "English", "percent": 18 },
       { "group": "Irish", "percent": 8 },
       { "group": "Greek", "percent": 4 }
     ]
@@ -2377,7 +2377,7 @@
     "total_population": 38456,
     "ancestries": [
       { "group": "Australian", "percent": 28 },
-      { "group": "UK", "percent": 26 },
+      { "group": "English", "percent": 26 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "Italian", "percent": 4 }
@@ -2389,7 +2389,7 @@
       { "group": "Vietnamese", "percent": 24 },
       { "group": "Indian", "percent": 14 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Filipino", "percent": 6 }
     ]
   },
@@ -2399,7 +2399,7 @@
       { "group": "Vietnamese", "percent": 26 },
       { "group": "Australian", "percent": 12 },
       { "group": "Indian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Filipino", "percent": 6 }
     ]
   },
@@ -2409,14 +2409,14 @@
       { "group": "Vietnamese", "percent": 22 },
       { "group": "Indian", "percent": 14 },
       { "group": "Australian", "percent": 10 },
-      { "group": "UK", "percent": 9 },
+      { "group": "English", "percent": 9 },
       { "group": "Filipino", "percent": 6 }
     ]
   },
   "Surrey Hills": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Chinese", "percent": 12 },
       { "group": "Irish", "percent": 8 },
@@ -2427,7 +2427,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2438,7 +2438,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 18 },
       { "group": "Australian", "percent": 14 },
-      { "group": "UK", "percent": 12 },
+      { "group": "English", "percent": 12 },
       { "group": "Filipino", "percent": 8 },
       { "group": "Vietnamese", "percent": 6 }
     ]
@@ -2450,7 +2450,7 @@
       { "group": "Australian", "percent": 12 },
       { "group": "Filipino", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
-      { "group": "UK", "percent": 7 }
+      { "group": "English", "percent": 7 }
     ]
   },
   "Taylors Hill": {
@@ -2458,7 +2458,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 20 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Filipino", "percent": 8 },
       { "group": "Vietnamese", "percent": 6 }
     ]
@@ -2467,7 +2467,7 @@
     "total_population": 15432,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Greek", "percent": 6 },
       { "group": "Italian", "percent": 4 }
@@ -2477,7 +2477,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Greek", "percent": 5 },
       { "group": "Italian", "percent": 4 }
@@ -2496,7 +2496,7 @@
   "Thornbury": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Greek", "percent": 10 },
       { "group": "Italian", "percent": 8 },
@@ -2506,7 +2506,7 @@
   "Toorak": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 34 },
+      { "group": "English", "percent": 34 },
       { "group": "Australian", "percent": 20 },
       { "group": "Jewish", "percent": 10 },
       { "group": "Irish", "percent": 8 },
@@ -2516,7 +2516,7 @@
   "Torquay": {
     "total_population": 15432,
     "ancestries": [
-      { "group": "UK", "percent": 32 },
+      { "group": "English", "percent": 32 },
       { "group": "Australian", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
@@ -2527,7 +2527,7 @@
     "total_population": 24876,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2538,7 +2538,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 24 },
       { "group": "Chinese", "percent": 18 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Australian", "percent": 12 },
       { "group": "Vietnamese", "percent": 6 }
     ]
@@ -2550,7 +2550,7 @@
       { "group": "Australian", "percent": 12 },
       { "group": "Filipino", "percent": 10 },
       { "group": "Chinese", "percent": 8 },
-      { "group": "UK", "percent": 7 }
+      { "group": "English", "percent": 7 }
     ]
   },
   "Tullamarine": {
@@ -2558,7 +2558,7 @@
     "ancestries": [
       { "group": "Italian", "percent": 20 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Indian", "percent": 10 },
       { "group": "Greek", "percent": 5 }
     ]
@@ -2567,7 +2567,7 @@
     "total_population": 2100,
     "ancestries": [
       { "group": "Australian", "percent": 36 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2576,7 +2576,7 @@
   "Upper Ferntree Gully": {
     "total_population": 5432,
     "ancestries": [
-      { "group": "UK", "percent": 29 },
+      { "group": "English", "percent": 29 },
       { "group": "Australian", "percent": 25 },
       { "group": "Irish", "percent": 9 },
       { "group": "German", "percent": 5 },
@@ -2587,7 +2587,7 @@
     "total_population": 9876,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -2597,7 +2597,7 @@
     "total_population": 11234,
     "ancestries": [
       { "group": "Chinese", "percent": 28 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 3 }
@@ -2606,7 +2606,7 @@
   "Viewbank": {
     "total_population": 6543,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 24 },
       { "group": "Italian", "percent": 10 },
       { "group": "Greek", "percent": 6 },
@@ -2617,7 +2617,7 @@
     "total_population": 13210,
     "ancestries": [
       { "group": "Australian", "percent": 30 },
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2627,7 +2627,7 @@
     "total_population": 18456,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2637,7 +2637,7 @@
     "total_population": 15432,
     "ancestries": [
       { "group": "Chinese", "percent": 24 },
-      { "group": "UK", "percent": 20 },
+      { "group": "English", "percent": 20 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 8 },
       { "group": "Greek", "percent": 4 }
@@ -2647,7 +2647,7 @@
     "total_population": 19876,
     "ancestries": [
       { "group": "Chinese", "percent": 26 },
-      { "group": "UK", "percent": 22 },
+      { "group": "English", "percent": 22 },
       { "group": "Australian", "percent": 18 },
       { "group": "Indian", "percent": 7 },
       { "group": "Greek", "percent": 3 }
@@ -2657,7 +2657,7 @@
     "total_population": 15432,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2666,7 +2666,7 @@
   "Windsor": {
     "total_population": 9876,
     "ancestries": [
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Chinese", "percent": 6 },
@@ -2677,7 +2677,7 @@
     "total_population": 18456,
     "ancestries": [
       { "group": "Australian", "percent": 34 },
-      { "group": "UK", "percent": 30 },
+      { "group": "English", "percent": 30 },
       { "group": "Irish", "percent": 10 },
       { "group": "Scottish", "percent": 6 },
       { "group": "German", "percent": 3 }
@@ -2688,7 +2688,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 24 },
       { "group": "Australian", "percent": 16 },
-      { "group": "UK", "percent": 14 },
+      { "group": "English", "percent": 14 },
       { "group": "Filipino", "percent": 8 },
       { "group": "Chinese", "percent": 6 }
     ]
@@ -2698,7 +2698,7 @@
     "ancestries": [
       { "group": "Indian", "percent": 22 },
       { "group": "Australian", "percent": 18 },
-      { "group": "UK", "percent": 16 },
+      { "group": "English", "percent": 16 },
       { "group": "Filipino", "percent": 9 },
       { "group": "Chinese", "percent": 5 }
     ]
@@ -2706,7 +2706,7 @@
   "Yarraville": {
     "total_population": 13210,
     "ancestries": [
-      { "group": "UK", "percent": 28 },
+      { "group": "English", "percent": 28 },
       { "group": "Australian", "percent": 22 },
       { "group": "Irish", "percent": 10 },
       { "group": "Italian", "percent": 6 },
